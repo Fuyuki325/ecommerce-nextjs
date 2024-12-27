@@ -144,30 +144,27 @@ export default {
         ],
       },
       container: {
-				center: true,
+        center: true,
         screens: {
-          sm: "640px",
-          // => @media (max-width: 640px) { ... }
-
+          xs: "360px",
+          sm: "575px",
           md: "768px",
-          // => @media (max-width: 768px) { ... }
-
           lg: "1024px",
-          // => @media (max-width: 1024px) { ... }
-
           xl: "1280px",
-          // => @media (max-width: 1280px) { ... }
-
-          "2xl": "1536px",
-          // => @media (max-width: 1536px) { ... }
+          "2xl": "1440px",
+          "3xl": "1680px",
+          "4xl": "1920px",
         },
-				padding: {
-					DEFAULT: '1rem',
-					sm: '2rem',
-					lg: '4rem',
-					xl: '5rem',
-					'2xl': '6rem',
-				},
+        padding: {
+          DEFAULT: "0",
+          sm: "0",
+          md: "0",
+          lg: "0",
+          xl: "0",
+          "2xl": "2rem",
+          "3xl": "2rem",
+          "4xl": "2rem",
+        },
       },
     },
   },
