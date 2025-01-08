@@ -5,7 +5,10 @@ const isPrivateRoute = createRouteMatcher(['/account(.*)'])
 export default clerkMiddleware(async (auth, request) => {
   // if route is protected, present the login page
   if (isPrivateRoute(request)) {
-    await auth.protect()
+    await auth.protect({
+      unauthorizedUrl: process.env.NEXT_PUBLIC_SERVER_URL,
+      unauthenticatedUrl: process.env.NEXT_PUBLIC_SERVER_URL
+    })
   }
 })
 
