@@ -67,81 +67,82 @@ export default {
         "4xl": "2.441rem",
         "5xl": "3.052rem",
 
-        // custom font size
-        h1: [
-          "4rem",
-          {
-            lineHeight: "5rem",
-            letterSpacing: "0.0375em",
-            fontWeight: "700",
-          },
-        ],
-        h2: [
-          "3rem",
-          {
-            lineHeight: "2rem",
-            letterSpacing: "0.035em",
-            fontWeight: "700",
-          },
-        ],
-        h3: [
-          "2.5rem",
-          {
-            lineHeight: "3.5rem",
-            letterSpacing: "0.05em",
-            fontWeight: "700",
-          },
-        ],
-        h4: [
-          "2rem",
-          {
-            lineHeight: "2.75rem",
-            letterSpacing: "0em",
-            fontWeight: "700",
-          },
-        ],
-        h5: [
-          "1.5rem",
-          {
-            lineHeight: "2.5rem",
-            letterSpacing: "0em",
-            fontWeight: "600",
-          },
-        ],
-        h6: [
-          "1.25rem",
-          {
-            lineHeight: "2rem",
-            letterSpacing: "0rem",
-            fontWeight: "500",
-          },
-        ],
+        //custom font size
+      /** Root font size  = 16px how can be 64px  */
+      h1: [
+        "4rem",
+        {
+          lineHeight: "5rem",
+          letterSpacing: "0.0375em",
+          fontWeight: "700",
+        },
+      ],
+      h2: [
+        "3rem",
+        {
+          lineHeight: "2rem",
+          letterSpacing: "0.035em",
+          fontWeight: "700",
+        },
+      ],
+      h3: [
+        "2.5rem",
+        {
+          lineHeight: "3.5rem",
+          letterSpacing: "0.05em",
+          fontWeight: "700",
+        },
+      ],
+      h4: [
+        "2rem",
+        {
+          lineHeight: "2.75rem",
+          letterSpacing: "0em",
+          fontWeight: "700",
+        },
+      ],
+      h5: [
+        "1.5rem",
+        {
+          lineHeight: "2.5rem",
+          letterSpacing: "0em",
+          fontWeight: "600",
+        },
+      ],
+      h6: [
+        "1.25rem",
+        {
+          lineHeight: "2rem",
+          letterSpacing: "0rem",
+          fontWeight: "500",
+        },
+      ],
 
-        p: [
-          "0.875rem",
-          {
-            lineHeight: "1.5rem",
-            letterSpacing: "0rem",
-            fontWeight: "400",
-          },
-        ],
-        body: [
-          "1rem",
-          {
-            lineHeight: "1.5rem",
-            letterSpacing: "0rem",
-            fontWeight: "400",
-          },
-        ],
+      p: [
+        "0.875rem",
+        {
+          lineHeight: "1.5rem",
+          letterSpacing: "0rem",
+          fontWeight: "400",
+        },
+      ],
+      body: [
+        "1rem",
+        {
+          lineHeight: "1.5rem",
+          letterSpacing: "0rem",
+          fontWeight: "400",
+        },
+      ],
 
-        span: [
-          "0.75rem",
-          {
-            lineHeight: "1.5rem",
-            letterSpacing: "0rem",
-            fontWeight: "400",
-          },
-        ],
+      span: [
+        "0.75rem",
+        {
+          lineHeight: "1.5rem",
+          letterSpacing: "0rem",
+          fontWeight: "400",
+        },
+      ],
       },
       container: {
         center: true,

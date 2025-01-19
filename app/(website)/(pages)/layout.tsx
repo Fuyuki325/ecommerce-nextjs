@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "@/components/modules/header/index";
-import MobileButton from "@/components/custom/MobileButton";
+import MobileBottom from "@/components/custom/MobileBottom";
 import Footer from "@/components/modules/footer/index"
 
 
@@ -12,7 +12,7 @@ const layout = ({ children } : layoutProps) => {
   return (
     <>
       <Header />
-      <MobileButton />
+      <MobileBottom />
       {children}
       <Footer />
     </>
